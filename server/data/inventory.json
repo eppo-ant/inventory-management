@@ -297,7 +297,8 @@
     "reorder_point": 180,
     "unit_cost": 18.99,
     "location": "Warehouse A-15",
-    "last_updated": "2025-09-28T08:45:00"
+    "last_updated": "2025-09-28T08:45:00",
+    "lead_time_days": 12
   },
   {
     "id": "26",
@@ -307,7 +308,7 @@
     "warehouse": "London",
     "quantity_on_hand": 350,
     "reorder_point": 200,
-    "unit_cost": 22.50,
+    "unit_cost": 22.5,
     "location": "Warehouse B-16",
     "last_updated": "2025-09-27T13:20:00"
   },
@@ -326,7 +327,7 @@
   {
     "id": "28",
     "sku": "PSU-504",
-    "name": "Dual Output ±15V Power Supply",
+    "name": "Dual Output \u00b115V Power Supply",
     "category": "Power Supplies",
     "warehouse": "San Francisco",
     "quantity_on_hand": 190,
@@ -343,7 +344,7 @@
     "warehouse": "London",
     "quantity_on_hand": 145,
     "reorder_point": 120,
-    "unit_cost": 67.50,
+    "unit_cost": 67.5,
     "location": "Warehouse B-17",
     "last_updated": "2025-09-24T09:00:00"
   },
@@ -367,7 +368,7 @@
     "warehouse": "San Francisco",
     "quantity_on_hand": 95,
     "reorder_point": 80,
-    "unit_cost": 125.00,
+    "unit_cost": 125.0,
     "location": "Warehouse A-17",
     "last_updated": "2025-09-22T11:30:00"
   },
@@ -379,8 +380,112 @@
     "warehouse": "Tokyo",
     "quantity_on_hand": 75,
     "reorder_point": 100,
-    "unit_cost": 185.50,
+    "unit_cost": 185.5,
     "location": "Warehouse C-11",
     "last_updated": "2025-09-21T15:20:00"
+  },
+  {
+    "id": "33",
+    "sku": "WDG-001",
+    "name": "Industrial Widget Type A",
+    "category": "Actuators",
+    "warehouse": "San Francisco",
+    "quantity_on_hand": 180,
+    "reorder_point": 150,
+    "unit_cost": 55.0,
+    "location": "Warehouse A-20",
+    "last_updated": "2025-09-30T12:00:00",
+    "lead_time_days": 7
+  },
+  {
+    "id": "34",
+    "sku": "BRG-102",
+    "name": "Steel Bearing Assembly",
+    "category": "Actuators",
+    "warehouse": "Tokyo",
+    "quantity_on_hand": 220,
+    "reorder_point": 100,
+    "unit_cost": 67.0,
+    "location": "Warehouse C-10",
+    "last_updated": "2025-09-30T12:00:00",
+    "lead_time_days": 14
+  },
+  {
+    "id": "35",
+    "sku": "GSK-203",
+    "name": "High-Temperature Gasket",
+    "category": "Actuators",
+    "warehouse": "London",
+    "quantity_on_hand": 340,
+    "reorder_point": 250,
+    "unit_cost": 42.0,
+    "location": "Warehouse B-11",
+    "last_updated": "2025-09-30T12:00:00",
+    "lead_time_days": 10
+  },
+  {
+    "id": "36",
+    "sku": "MTR-304",
+    "name": "Electric Motor 5HP",
+    "category": "Actuators",
+    "warehouse": "Tokyo",
+    "quantity_on_hand": 60,
+    "reorder_point": 25,
+    "unit_cost": 890.0,
+    "location": "Warehouse C-11",
+    "last_updated": "2025-09-30T12:00:00",
+    "lead_time_days": 30
+  },
+  {
+    "id": "37",
+    "sku": "FLT-405",
+    "name": "Oil Filter Cartridge",
+    "category": "Actuators",
+    "warehouse": "San Francisco",
+    "quantity_on_hand": 520,
+    "reorder_point": 400,
+    "unit_cost": 28.5,
+    "location": "Warehouse A-21",
+    "last_updated": "2025-09-30T12:00:00",
+    "lead_time_days": 5
+  },
+  {
+    "id": "38",
+    "sku": "VLV-506",
+    "name": "Pressure Relief Valve",
+    "category": "Actuators",
+    "warehouse": "London",
+    "quantity_on_hand": 140,
+    "reorder_point": 60,
+    "unit_cost": 156.0,
+    "location": "Warehouse B-12",
+    "last_updated": "2025-09-30T12:00:00",
+    "lead_time_days": 21
+  },
+  {
+    "id": "39",
+    "sku": "SNR-420",
+    "name": "Temperature Sensor Module",
+    "category": "Sensors",
+    "warehouse": "Tokyo",
+    "quantity_on_hand": 200,
+    "reorder_point": 90,
+    "unit_cost": 89.5,
+    "location": "Warehouse C-12",
+    "last_updated": "2025-09-30T12:00:00",
+    "lead_time_days": 18
+  },
+  {
+    "id": "40",
+    "sku": "CTL-330",
+    "name": "Logic Controller Board",
+    "category": "Controllers",
+    "warehouse": "San Francisco",
+    "quantity_on_hand": 110,
+    "reorder_point": 50,
+    "unit_cost": 210.0,
+    "location": "Warehouse A-22",
+    "last_updated": "2025-09-30T12:00:00",
+    "lead_time_days": 25
   }
 ]

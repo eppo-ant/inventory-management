@@ -6,6 +6,7 @@ export default {
     orders: 'Orders',
     finance: 'Finance',
     demandForecast: 'Demand Forecast',
+    restocking: 'Restocking',
     companyName: 'Catalyst Components',
     subtitle: 'Inventory Management System'
   },
@@ -126,7 +127,46 @@ export default {
       status: 'Status',
       expectedDelivery: 'Expected Delivery',
       actualDelivery: 'Actual Delivery'
-    }
+    },
+    submittedOrders: 'Submitted Orders',
+    noSubmittedOrders: 'No restocking orders have been submitted yet.',
+    submittedDate: 'Submitted',
+    leadTime: 'Lead Time',
+    leadTimeDays: '{days} days'
+  },
+
+  // Restocking
+  restocking: {
+    title: 'Restocking',
+    description: 'Allocate your budget to restock items with growing demand',
+    budgetLabel: 'Available Budget',
+    allocated: 'Allocated',
+    remaining: 'Remaining',
+    fundedItems: 'Funded Items',
+    recommendationsTitle: 'Restock Recommendations',
+    table: {
+      rank: 'Rank',
+      sku: 'SKU',
+      item: 'Item Name',
+      trend: 'Trend',
+      currentDemand: 'Current Demand',
+      forecastedDemand: 'Forecasted Demand',
+      gap: 'Gap',
+      gapPercent: 'Gap %',
+      unitCost: 'Unit Cost',
+      orderQty: 'Order Qty',
+      estCost: 'Est. Cost',
+      leadTime: 'Lead Time',
+      fundingStatus: 'Status'
+    },
+    funded: 'Funded',
+    notFunded: 'Not Funded',
+    cutoffLabel: 'Budget cut-off — items below are not funded',
+    placeOrder: 'Place Order',
+    placingOrder: 'Placing Order...',
+    orderPlaced: 'Order {orderNumber} submitted successfully.',
+    viewInOrders: 'View in Orders',
+    noRecommendations: 'No items currently need restocking.'
   },
 
   // Finance/Spending
@@ -204,6 +244,7 @@ export default {
     shipped: 'Shipped',
     processing: 'Processing',
     backordered: 'Backordered',
+    submitted: 'Submitted',
     inStock: 'In Stock',
     lowStock: 'Low Stock',
     adequate: 'Adequate'
